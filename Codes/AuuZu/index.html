@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
@@ -13,7 +14,9 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/media.css">
+
 	</head>
+
 	<body>
 		<!--1  导航-->
 		<div class="hidden-xs hidden-sm auuzu-index-top">
@@ -54,14 +57,109 @@
 			</div>
 		</div>
 		<!--2 轮播展示-->
-		<div id="indexBanner" class="slide auuzu-index-banner">
-			<div class="slide">
+		<div id="indexBanner" class="carousel slide auuzu-index-banner">
+			<div id="carousel-example-vertical" class="carousel slide">
+				<ol class="carousel-indicators">
+					<li data-target="#indexBanner" data-slide-to="0" class="active"></li>
+					<li data-target="#indexBanner" data-slide-to="1"></li>
+				</ol>
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<a href="#"><img src="img/banner1.png" alt=""></a>
+					</div>
+					<div class="item">
+						<a href="#"><img src="img/banner2.png" alt=""></a>
+					</div>
+					<div class="auuzu-index-banner-btn">
+						<a class="carousel-control left auuzu-index-banner-btn-left" href="#indexBanner" data-slide="prev"><img src="img/prev.png" /></a>
+						<a class="carousel-control right auuzu-index-banner-btn-right" href="#indexBanner" data-slide="next"><img src="img/next.png" /></a>
+					</div>
+				</div>
 			</div>
 		</div>
+		<!--3 服务项目-->
+		<div class="syscontainer auuzu-index-service">
+			<div class="auuzu-index-service-title">
+				<label class="auuzu-index-service-title-cn">服务</label><label class="maincolor auuzu-index-service-title-cn">项目</label>
+				<label class="auuzu-index-service-title-en">Service Project</label>
+			</div>
+			<div class="auuzu-index-service-mcont">
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 auuzu-index-service-cont">
+					<img src="img/service1.png" /><br/>
+					<span class="auuzu-index-service-name">网站建设</span><br/>
+					<span class="auuzu-index-service-desc">优秀的网站解决方案，专注 于网站建设开发，以用户体 验为中心，提供全面的网站 建设服务。</span>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 auuzu-index-service-cont">
+					<img src="img/service2.png" /><br/>
+					<span class="auuzu-index-service-name">模板建站</span><br/>
+					<span class="auuzu-index-service-desc">丰富的行业网站模板提供选 择，选定模板即可一键建站 。提供专业、快速的网站建 设服务。</span>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 auuzu-index-service-cont">
+					<img src="img/service3.png" /><br/>
+					<span class="auuzu-index-service-name">快速仿站</span><br/>
+					<span class="auuzu-index-service-desc">利用对网上某个你非常喜欢 的网站风格仿制以及功能仿 制，这就是仿站。仿站是一 个快速并且省钱的计划。</span>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 auuzu-index-service-cont">
+					<img src="img/service4.png" /><br/>
+					<span class="auuzu-index-service-name">网站维护</span><br/>
+					<span class="auuzu-index-service-desc">网站维护服务，对您的网站 进行各类维护，定期对网站 安全进行检测。</span>
+				</div>
+			</div>
+		</div> 
+		<!--4 案例展示-->
+		<div class="syscontainer auuzu-index-case">
+			<div class="auuzu-index-case-title">
+				<label class="auuzu-index-case-title-cn">案例</label><label class="maincolor auuzu-index-case-title-cn">展示</label>
+				<label class="auuzu-index-case-title-en">Case Show</label>
+			</div>
+			<div class="auuzu-index-case-mcont">
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 auuzu-index-case-cont">
+					<div>
+						<img src="img/case1.jpg" width="100%" />
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 auuzu-index-case-cont">
+					<div>
+						<img src="img/case1.jpg" width="100%" /></div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 auuzu-index-case-cont">
+					<div>
+						<img src="img/case1.jpg" width="100%" /></div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 auuzu-index-case-cont">
+					<div>
+						<img src="img/case1.jpg" width="100%" /></div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 auuzu-index-case-cont">
+					<div>
+						<img src="img/case1.jpg" width="100%" />
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 auuzu-index-case-cont">
+					<div>
+						<img src="img/case1.jpg" width="100%" /></div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 auuzu-index-case-cont">
+					<div>
+						<img src="img/case1.jpg" width="100%" /></div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 auuzu-index-case-cont">
+					<div>
+						<img src="img/case1.jpg" width="100%" /></div>
+				</div>
+			</div>
+		</div>
+		<!--2 底部-->
+		<div class="syscontainer auuzu-index-bottom">
+
+		</div>
 	</body>
+
 </html>
+
 <!--js-->
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/video.min.js"></script>

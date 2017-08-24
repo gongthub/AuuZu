@@ -1,48 +1,173 @@
 body {
-	background-color:white;
+	background-color: white;
 }
 
+/**********Common-Start**********/
+.syscontainer{
+	width: 80%;
+	margin: 0 auto;
+}
+/**********Common-End**********/
+
 /**********Index-Start**********/
-.auuzu-index-top{
+
+.auuzu-index-top {
 	margin-top: 20px;
 }
 
+
 /*****Logo-Start*****/
-.auuzu-index-top-logo{
+
+.auuzu-index-top-logo {
 	bottom: 0px;
 }
-.auuzu-index-top-logo img{
+
+.auuzu-index-top-logo img {
 	width: 180px;
 }
+
+
 /*****Logo-End*****/
 
+
 /*****Navbar-Start*****/
+
 .auuzu-index-top-nv {
 	margin-top: 40px;
 }
+
 .auuzu-index-top-nv ul li {
 	margin-left: 15px;
 	margin-right: 15px;
 }
+
 .auuzu-index-top-nv ul li a {
 	font-size: 24px;
 	font-family: "黑体";
 }
+
 .auuzu-index-top-nv ul li a:hover {
 	color: #FFA60A;
 }
+
 .navbar-nav-active a {
+	border-top: 2px solid #FFA60A;
 	color: #FFA60A !important;
 }
+
+
 /*****Navbar-End*****/
 
+
 /*****Banner-Start*****/
-.auuzu-index-banner{
+
+.auuzu-index-banner {
 	width: 100%;
-	height: 400px;
 	background-color: black;
 }
 
+.auuzu-index-banner-btn-left {
+	height: 40px;
+	top: 40%;
+	width: 50px;
+	left: 50px;
+	background: none !important;
+}
+
+.auuzu-index-banner-btn-right {
+	height: 40px;
+	top: 40%;
+	width: 50px;
+	right: 50px !important;
+	background: none !important;
+}
+
+
 /*****Banner-End*****/
+
+
+/*****Service-Start*****/
+
+.auuzu-index-service {
+	margin-top: 30px;
+}
+.auuzu-index-service-mcont{
+	margin-top: 20px;
+}
+.auuzu-index-service-title {
+	margin: 0 auto;
+	width: 100px;
+	text-align: center;
+	border-bottom: 2px solid #FFA60A;
+}
+
+.auuzu-index-service-title-cn {
+	font-size: 18px; 
+	font-family: "黑体";
+	letter-spacing: 5px;
+}
+
+.auuzu-index-service-title-en {
+	font-size: 12px !important;
+	color: #777777; 
+}
+.auuzu-index-service-cont{
+	text-align: center;
+}
+.auuzu-index-service-name{
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+.auuzu-index-service-desc{
+	font-size: 14px;
+	color:#777777; 
+}
+
+/*****Service-End*****/
+
+/*****Case-Start*****/
+
+.auuzu-index-case {
+	margin-top: 350px;
+	margin-bottom: 350px;
+}
+
+.auuzu-index-case-title {
+	margin: 0 auto;
+	width: 100px;
+	text-align: center;
+	border-bottom: 2px solid #FFA60A;
+}
+
+.auuzu-index-case-title-cn {
+	font-size: 18px; 
+	font-family: "黑体";
+	letter-spacing: 5px;
+}
+
+.auuzu-index-case-title-en {
+	font-size: 12px !important;
+	color: #777777; 
+}
+.auuzu-index-case-mcont{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+.auuzu-index-case-cont div{  
+	margin-left: 5px; 
+	margin-top: 20px;
+	height: 300px;
+	width: 90%;
+}
+/*****Case-End*****/
+
+/*****Bottom-Start*****/
+.auuzu-index-bottom{
+	height: 500px;
+}
+/*****Bottom-End*****/
+
 
 /**********Index-End**********/
