@@ -22,22 +22,116 @@
 }
  */
 
-@media screen and (min-width:1200px){
+@media screen and (min-width:1200px) {}
 
-}
+@media screen and (min-width: 960px) and (max-width: 1199px) {}
 
-@media screen and (min-width: 960px) and (max-width: 1199px) { 
+@media screen and (min-width: 768px) and (max-width: 959px) {}
 
-}
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
 
-@media screen and (min-width: 768px) and (max-width: 959px){   
-
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px){
-	
-}
-
-@media only screen and (max-width: 479px){
-	
+@media only screen and (max-width: 479px) {
+	.auuzu-index-top {
+		margin-top: 0px;
+	}
+	/*****Logo-Start*****/
+	.auuzu-index-top-logo {
+		bottom: 0px;
+	}
+	.auuzu-index-top-logo img {
+		width: 60px;
+	}
+	.auuzu-index-top-logosm img{
+		position: absolute;
+		top: 5px;
+		width: 100px;
+		margin-left: 20px;
+	}
+	/*****Logo-End*****/
+	/*****Navbar-Start*****/
+	.auuzu-index-top-nv {
+		margin-top: 0px;
+	}
+	.auuzu-index-top-nv ul li {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.auuzu-index-top-nv ul li a {
+		font-size: 14px;
+		font-family: "黑体";
+	}
+	.auuzu-index-top-nv ul li a:hover {
+		color: #FFA60A;
+	}
+	.navbar-nav-active a {
+		border-top: 2px solid #FFA60A;
+		color: #FFA60A !important;
+	}
+	/*****Navbar-End*****/
+	/*****Service-Start*****/
+	.auuzu-index-service {
+		overflow: hidden;
+		margin-top: 20px;
+	}
+	.auuzu-index-service img {
+		width: 95%;
+	}
+	.auuzu-index-service-mcont {
+		margin-top: 20px;
+	}
+	.auuzu-index-service-cont {
+		text-align: center;
+	}
+	.auuzu-index-service-name {
+		white-space: nowrap;
+		font-size: 5px;
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.auuzu-index-service-desc {
+		display: none;
+		font-size: 1px;
+		color: #777777;
+	}
+	/*****Service-End*****/
+	/*****Link-Start*****/
+	.auuzu-index-link-mcont {
+		font-size: 10px;
+	}
+	.auuzu-index-link-mcont div a {
+		margin-left: 5px;
+	}
+	/*****Link-End*****/
+	/*****Bottom-Start*****/
+	.auuzu-index-bottom {
+		overflow: hidden;
+		margin-top: 20px;
+		width: 100%;
+		height: 250px;
+		background-color: #6e6e6e;
+	}
+	.auuzu-index-bottom-top {
+		height: 200px;
+		background-image: url(../img/bottombg.png);
+		opacity: 0.5;
+	}
+	.auuzu-index-bottom-top-left {
+		position: absolute;
+		margin-top: 30px;
+		color: white;
+		left: 10%;
+		width: 100px;
+		white-space: nowrap;
+	}
+	.auuzu-index-bottom-bot {
+		text-align: center;
+		line-height: 50px;
+		height: 50px;
+		color: white;
+	}
+	.auuzu-index-bottom-bot span {
+		margin-right: 10px;
+	}
+	/*****Bottom-End*****/
 }

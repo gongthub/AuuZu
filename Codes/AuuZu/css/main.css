@@ -1,13 +1,27 @@
+.mask,
+.mask-btn {
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
 body {
 	background-color: white;
 }
 
+
 /**********Common-Start**********/
-.syscontainer{
+
+.syscontainer {
 	width: 80%;
 	margin: 0 auto;
 }
+
+
 /**********Common-End**********/
+
 
 /**********Index-Start**********/
 
@@ -23,7 +37,7 @@ body {
 }
 
 .auuzu-index-top-logo img {
-	width: 180px;
+	width: 160px;
 }
 
 
@@ -32,8 +46,12 @@ body {
 
 /*****Navbar-Start*****/
 
+.navbar-toggle {
+	background-image: url(../img/smmenu.png);
+}
+
 .auuzu-index-top-nv {
-	margin-top: 40px;
+	margin-top: 35px;
 }
 
 .auuzu-index-top-nv ul li {
@@ -42,8 +60,8 @@ body {
 }
 
 .auuzu-index-top-nv ul li a {
-	font-size: 24px;
-	font-family: "黑体";
+	font-size: 20px;
+	/*font-family: "黑体";*/
 }
 
 .auuzu-index-top-nv ul li a:hover {
@@ -89,11 +107,14 @@ body {
 /*****Service-Start*****/
 
 .auuzu-index-service {
+	overflow: hidden;
 	margin-top: 30px;
 }
-.auuzu-index-service-mcont{
+
+.auuzu-index-service-mcont {
 	margin-top: 20px;
 }
+
 .auuzu-index-service-title {
 	margin: 0 auto;
 	width: 100px;
@@ -102,35 +123,40 @@ body {
 }
 
 .auuzu-index-service-title-cn {
-	font-size: 18px; 
-	font-family: "黑体";
+	font-size: 18px;
+	/*font-family: "黑体";*/
 	letter-spacing: 5px;
 }
 
 .auuzu-index-service-title-en {
 	font-size: 12px !important;
-	color: #777777; 
+	color: #777777;
 }
-.auuzu-index-service-cont{
+
+.auuzu-index-service-cont {
 	text-align: center;
 }
-.auuzu-index-service-name{
+
+.auuzu-index-service-name {
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
 }
-.auuzu-index-service-desc{
+
+.auuzu-index-service-desc {
 	font-size: 14px;
-	color:#777777; 
+	color: #777777;
 }
 
+
 /*****Service-End*****/
+
 
 /*****Case-Start*****/
 
 .auuzu-index-case {
-	margin-top: 350px;
-	margin-bottom: 350px;
+	overflow: hidden;
+	margin-top: 50px;
 }
 
 .auuzu-index-case-title {
@@ -141,32 +167,241 @@ body {
 }
 
 .auuzu-index-case-title-cn {
-	font-size: 18px; 
-	font-family: "黑体";
+	font-size: 18px;
+	/*font-family: "黑体";*/
 	letter-spacing: 5px;
 }
 
 .auuzu-index-case-title-en {
 	font-size: 12px !important;
-	color: #777777; 
+	color: #777777;
 }
-.auuzu-index-case-mcont{
+
+.auuzu-index-case-mcont {
 	width: 100%;
 	text-align: center;
 	margin-top: 20px;
 }
-.auuzu-index-case-cont div{  
-	margin-left: 5px; 
+
+.auuzu-index-case-mcont-img {
+	position: relative;
+	margin-left: 5px;
 	margin-top: 20px;
-	height: 300px;
-	width: 90%;
+	/*height: 300px;*/
+	width: 98%;
 }
+
+.auuzu-index-case-mcont-img .mask {
+	background: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 99;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+
+.auuzu-index-case-mcont-img:hover .mask {
+	opacity: 1;
+	/*background-color: rgba(48, 164, 253, 0.52);*/
+	/*filter: Alpha(opacity=100);*/
+}
+
+.auuzu-index-case-mcont-img .mask-btn {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	font-size: 12px;
+	padding: 0 8px;
+	width: 120px;
+	display: inline-block;
+	text-align: center;
+	height: 32px;
+	line-height: 32px;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	background-color: #ffa60a;
+	color: white;
+}
+
+.auuzu-index-case-mcont-img:hover .mask-btn {
+	top: 80%;
+}
+
+
 /*****Case-End*****/
 
-/*****Bottom-Start*****/
-.auuzu-index-bottom{
-	height: 500px;
+
+/*****ServicePhil-Start*****/
+
+.auuzu-index-servicephil {
+	overflow: hidden;
+	margin-top: 50px;
 }
+
+.auuzu-index-servicephil-title {
+	margin: 0 auto;
+	width: 100px;
+	text-align: center;
+	border-bottom: 2px solid #FFA60A;
+}
+
+.auuzu-index-servicephil-title-cn {
+	font-size: 18px;
+	/*font-family: "黑体";*/
+	letter-spacing: 5px;
+}
+
+.auuzu-index-servicephil-title-en {
+	font-size: 8px !important;
+	white-space: nowrap;
+	color: #777777;
+}
+
+.auuzu-index-servicephil-mcont {
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	background-color: #efefef;
+}
+
+.auuzu-index-servicephil-cont-all {
+	margin-left: 5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 180px;
+	width: 98%;
+	border: 1px solid #05b2eb;
+}
+
+.auuzu-index-servicephil-cont-all label {
+	position: absolute;
+	width: 30%;
+	top: 18px;
+	left: 35%;
+	color: #05b2eb;
+	z-index: 999;
+	background-color: #efefef;
+}
+
+.auuzu-index-servicephil-cont-all div {
+	width: 80%;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 20px;
+	font-size: 16px;
+	color: #535353;
+}
+
+
+/*****ServicePhil-End*****/
+
+
+/*****Link-Start*****/
+
+.auuzu-index-link {
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.auuzu-index-link-title {
+	margin: 0 auto;
+	width: 100px;
+	text-align: center;
+	border-bottom: 2px solid #FFA60A;
+}
+
+.auuzu-index-link-title-cn {
+	font-size: 18px;
+	/*font-family: "黑体";*/
+	letter-spacing: 5px;
+}
+
+.auuzu-index-link-title-en {
+	font-size: 8px !important;
+	white-space: nowrap;
+	color: #777777;
+}
+
+.auuzu-index-link-mcont {
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.auuzu-index-link-mcont div {
+	white-space: nowrap;
+	margin-left: 10px;
+	color: #777777;
+}
+
+
+/*****Link-End*****/
+
+
+/*****Bottom-Start*****/
+
+.auuzu-index-bottom {
+	overflow: hidden;
+	margin-top: 20px;
+	width: 100%;
+	height: 250px;
+	background-color: #6e6e6e;
+}
+
+.auuzu-index-bottom-top {
+	height: 200px;
+	background-image: url(../img/bottombg.png);
+	opacity: 0.5;
+}
+
+.auuzu-index-bottom-top-left {
+	position: absolute;
+	margin-top: 30px;
+	color: white;
+	left: 20%;
+	width: 200px;
+	white-space: nowrap;
+}
+
+.auuzu-index-bottom-top-left span {
+	font-size: 18px;
+}
+
+.auuzu-index-bottom-top-right {
+	position: absolute;
+	margin-top: 30px;
+	color: white;
+	float: left;
+	width: 200px;
+	right: 20%;
+	white-space: nowrap;
+}
+
+.auuzu-index-bottom-top-right span {
+	font-size: 18px;
+}
+
+.auuzu-index-bottom-bot {
+	text-align: center;
+	line-height: 50px;
+	height: 50px;
+	color: white;
+}
+
+.auuzu-index-bottom-bot span {
+	margin-right: 10px;
+	font-size: 12px;
+}
+
+
 /*****Bottom-End*****/
 
 
