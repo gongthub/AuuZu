@@ -24,31 +24,32 @@
 
 @media screen and (min-width:1200px) {}
 
-@media screen and (min-width: 960px) and (max-width: 1199px) {}
-
-@media screen and (min-width: 768px) and (max-width: 959px) {}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
-
-@media only screen and (max-width: 479px) {
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+	.syscontainer {
+		width: 90%;
+	}
 	.auuzu-index-top {
-		margin-top: 0px;
+		margin-top: 15px;
 	}
 	/*****Logo-Start*****/
 	.auuzu-index-top-logo {
 		bottom: 0px;
 	}
 	.auuzu-index-top-logo img {
-		width: 60px;
+		width: 120px;
 	}
-	.auuzu-index-top-logosm img{
+	.auuzu-index-top-logosm img {
 		position: absolute;
 		top: 5px;
-		width: 100px;
+		width: 120px;
 		margin-left: 20px;
 	}
 	/*****Logo-End*****/
 	/*****Navbar-Start*****/
+	.navbar-nav {
+		float: right;
+		margin-top: 20px;
+	}
 	.auuzu-index-top-nv {
 		margin-top: 0px;
 	}
@@ -57,14 +58,14 @@
 		margin-right: 15px;
 	}
 	.auuzu-index-top-nv ul li a {
-		font-size: 14px;
+		font-size: 16px;
 		font-family: "黑体";
 	}
 	.auuzu-index-top-nv ul li a:hover {
 		color: #FFA60A;
 	}
 	.navbar-nav-active a {
-		border-top: 2px solid #FFA60A;
+		border-top: none;
 		color: #FFA60A !important;
 	}
 	/*****Navbar-End*****/
@@ -95,6 +96,425 @@
 		color: #777777;
 	}
 	/*****Service-End*****/
+	/*****ServicePhil-Start*****/
+	.auuzu-index-servicephil {
+		overflow: hidden;
+		margin-top: 50px;
+	}
+	.auuzu-index-servicephil-title {
+		margin: 0 auto;
+		width: 100px;
+		text-align: center;
+		border-bottom: 2px solid #FFA60A;
+	}
+	.auuzu-index-servicephil-title-cn {
+		font-size: 18px;
+		/*font-family: "黑体";*/
+		letter-spacing: 5px;
+	}
+	.auuzu-index-servicephil-title-en {
+		font-size: 12px !important;
+		white-space: nowrap;
+		color: #777777;
+	}
+	.auuzu-index-servicephil-mcont {
+		overflow: hidden;
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+		background-color: #efefef;
+	}
+	.auuzu-index-servicephil-cont-all {
+		margin-left: 5px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		height: 220px;
+		width: 98%;
+		border: 1px solid #05b2eb;
+	}
+	.auuzu-index-servicephil-cont-all label {
+		position: absolute;
+		width: 30%;
+		top: 18px;
+		left: 35%;
+		color: #05b2eb;
+		z-index: 999;
+		background-color: #efefef;
+	}
+	.auuzu-index-servicephil-cont-all div {
+		width: 80%;
+		margin: 0 auto;
+		text-align: left;
+		margin-top: 20px;
+		font-size: 16px;
+		color: #535353;
+	}
+	/*****ServicePhil-End*****/
+	/*****Flow-Start*****/
+	.auuzu-index-flow-mcont {
+		overflow: hidden;
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 20px;
+		text-align: center;
+	}
+	.auuzu-index-flow-mcont-div {
+		width: 60% !important;
+		float: left;
+		margin-left: 10%;
+	}
+	.auuzu-index-flow-mcont-div span {
+		font-size: 14px;
+		white-space: nowrap;
+	}
+	.auuzu-index-flow-mcont-div div {
+		font-size: 10px;
+		color: #777777;
+	}
+	.auuzu-index-flow-mcont-nv {
+		line-height: 200px;
+		float: left;
+		margin-left: 10px;
+		width: 15%;
+	}
+	.auuzu-index-flow-mcont-nv img {
+		width: 90%;
+	}
+	/*****Flow-End*****/
+	
+	/**********Cases-Start**********/
+	.auuzu-case-banner {
+		width: 100%;
+		height: 120px;
+	}
+	.auuzu-case-banner img {
+		width: 100%;
+	}
+	.auuzu-case-banner span {
+		position: absolute;
+		margin-top: -80px;
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+		color: white;
+	}
+	.auuzu-case-contitle {
+		margin-top: 20px;
+	}
+	.auuzu-case-contitle span {
+		color: #FFA60A;
+		font-size: 24px;
+	}
+	.auuzu-case-contitle div {
+		width: 100%;
+		font-size: 10px;
+		color: #777777;
+	}
+	.auuzu-case-contents {
+		overflow: hidden;
+		margin-bottom: 50px;
+	}
+	.auuzu-case-pages {
+		width: 100%;
+		overflow: hidden;
+		margin-bottom: 50px;
+	}
+	.auuzu-case-pages-content {
+		position: absolute;
+		right: 10%;
+		margin-bottom: 50px;
+	}
+	/**********Cases-End**********/
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	.syscontainer {
+		width: 90%;
+	}
+	.auuzu-index-top {
+		margin-top: 15px;
+	}
+	/*****Logo-Start*****/
+	.auuzu-index-top-logo {
+		bottom: 0px;
+	}
+	.auuzu-index-top-logo img {
+		width: 60px;
+	}
+	.auuzu-index-top-logosm img {
+		position: absolute;
+		top: 5px;
+		width: 80px;
+		margin-left: 20px;
+	}
+	/*****Logo-End*****/
+	/*****Navbar-Start*****/
+	.navbar-nav {
+		float: right;
+		margin: 0;
+	}
+	.auuzu-index-top-nv {
+		margin-top: 0px;
+	}
+	.auuzu-index-top-nv ul li {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.auuzu-index-top-nv ul li a {
+		font-size: 14px;
+		font-family: "黑体";
+	}
+	.auuzu-index-top-nv ul li a:hover {
+		color: #FFA60A;
+	}
+	.navbar-nav-active a {
+		border-top: none;
+		color: #FFA60A !important;
+	}
+	/*****Navbar-End*****/
+	/*****Service-Start*****/
+	.auuzu-index-service {
+		overflow: hidden;
+		margin-top: 20px;
+	}
+	.auuzu-index-service img {
+		width: 95%;
+	}
+	.auuzu-index-service-mcont {
+		margin-top: 20px;
+	}
+	.auuzu-index-service-cont {
+		text-align: center;
+	}
+	.auuzu-index-service-name {
+		white-space: nowrap;
+		font-size: 5px;
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.auuzu-index-service-desc {
+		display: none;
+		font-size: 1px;
+		color: #777777;
+	}
+	/*****Service-End*****/
+	/*****Flow-Start*****/
+	.auuzu-index-flow-mcont-div {
+		width: 60% !important;
+		float: left;
+		margin-left: 10%;
+	}
+	.auuzu-index-flow-mcont-div span {
+		font-size: 14px;
+	}
+	.auuzu-index-flow-mcont-div div {
+		font-size: 10px;
+		color: #777777;
+	}
+	/*****Flow-End*****/
+	
+	/**********Cases-Start**********/
+	.auuzu-case-banner {
+		width: 100%;
+		height: 90px;
+	}
+	.auuzu-case-banner img {
+		width: 100%;
+	}
+	.auuzu-case-banner span {
+		position: absolute;
+		margin-top: -60px;
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+		color: white;
+	}
+	.auuzu-case-contitle {
+		margin-top: 20px;
+	}
+	.auuzu-case-contitle span {
+		color: #FFA60A;
+		font-size: 24px;
+	}
+	.auuzu-case-contitle div {
+		width: 100%;
+		font-size: 10px;
+		color: #777777;
+	}
+	.auuzu-case-contents {
+		overflow: hidden;
+		margin-bottom: 50px;
+	}
+	.auuzu-case-pages {
+		width: 100%;
+		overflow: hidden;
+		margin-bottom: 50px;
+	}
+	.auuzu-case-pages-content {
+		position: absolute;
+		right: 10%;
+		margin-bottom: 50px;
+	}
+	/**********Cases-End**********/
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+@media only screen and (max-width: 479px) {
+	.syscontainer {
+		width: 90%;
+	}
+	.comon-detail-title {
+		width: 100%;
+		margin-top: 20px;
+		color: #777777;
+		font-size: 16px;
+		text-align: center;
+	}
+	.comon-detail-times {
+		width: 100%;
+		margin-top: 0px;
+		color: #777777;
+		font-size: 10px;
+		text-align: center;
+	}
+	.comon-detail-contents {
+		margin-top: 10px;
+	}
+	.auuzu-index-top {
+		margin-top: 0px;
+	}
+	/*****Logo-Start*****/
+	.auuzu-index-top-logo {
+		bottom: 0px;
+	}
+	.auuzu-index-top-logo img {
+		width: 60px;
+	}
+	.auuzu-index-top-logosm img {
+		position: absolute;
+		top: 5px;
+		width: 100px;
+		margin-left: 20px;
+	}
+	/*****Logo-End*****/
+	/*****Navbar-Start*****/
+	.auuzu-index-top-nv {
+		margin-top: 0px;
+	}
+	.auuzu-index-top-nv ul li {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.auuzu-index-top-nv ul li a {
+		font-size: 14px;
+		font-family: "黑体";
+	}
+	.auuzu-index-top-nv ul li a:hover {
+		color: #FFA60A;
+	}
+	.navbar-nav-active a {
+		border-top: none;
+		color: #FFA60A !important;
+	}
+	/*****Navbar-End*****/
+	/*****Service-Start*****/
+	.auuzu-index-service {
+		overflow: hidden;
+		margin-top: 20px;
+	}
+	.auuzu-index-service img {
+		width: 95%;
+	}
+	.auuzu-index-service-mcont {
+		margin-top: 20px;
+	}
+	.auuzu-index-service-cont {
+		text-align: center;
+	}
+	.auuzu-index-service-name {
+		white-space: nowrap;
+		font-size: 5px;
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.auuzu-index-service-desc {
+		display: none;
+		font-size: 1px;
+		color: #777777;
+	}
+	/*****Service-End*****/
+	/*****ServicePhil-Start*****/
+	.auuzu-index-servicephil {
+		overflow: hidden;
+		margin-top: 50px;
+	}
+	.auuzu-index-servicephil-title {
+		margin: 0 auto;
+		width: 100px;
+		text-align: center;
+		border-bottom: 2px solid #FFA60A;
+	}
+	.auuzu-index-servicephil-title-cn {
+		font-size: 18px;
+		/*font-family: "黑体";*/
+		letter-spacing: 5px;
+	}
+	.auuzu-index-servicephil-title-en {
+		font-size: 12px !important;
+		white-space: nowrap;
+		color: #777777;
+	}
+	.auuzu-index-servicephil-mcont {
+		overflow: hidden;
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+		background-color: #efefef;
+	}
+	.auuzu-index-servicephil-cont-all {
+		margin-left: 5px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		height: 100%;
+		width: 98%;
+		border: 1px solid #05b2eb;
+	}
+	.auuzu-index-servicephil-cont-all label {
+		position: absolute;
+		width: 30%;
+		top: 18px;
+		left: 35%;
+		color: #05b2eb;
+		z-index: 999;
+		background-color: #efefef;
+	}
+	.auuzu-index-servicephil-cont-all div {
+		width: 80%;
+		margin: 0 auto;
+		text-align: left;
+		margin-top: 20px;
+		font-size: 16px;
+		color: #535353;
+	}
+	/*****ServicePhil-End*****/
+	/*****Flow-Start*****/
+	.auuzu-index-flow-mcont-div {
+		width: 60% !important;
+		float: left;
+		margin-left: 10%;
+	}
+	.auuzu-index-flow-mcont-div span {
+		white-space: nowrap;
+		font-size: 12px;
+	}
+	.auuzu-index-flow-mcont-div div {
+		font-size: 10px;
+		color: #777777;
+	}
+	/*****Flow-End*****/
 	/*****Link-Start*****/
 	.auuzu-index-link-mcont {
 		font-size: 10px;
@@ -134,4 +554,231 @@
 		margin-right: 10px;
 	}
 	/*****Bottom-End*****/
+	/**********Cases-Start**********/
+	.auuzu-case-banner {
+		width: 100%;
+		height: 50px;
+	}
+	.auuzu-case-banner img {
+		width: 100%;
+	}
+	.auuzu-case-banner span {
+		position: absolute;
+		margin-top: -40px;
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+		color: white;
+	}
+	.auuzu-case-contitle {
+		margin-top: 20px;
+	}
+	.auuzu-case-contitle span {
+		color: #FFA60A;
+		font-size: 24px;
+	}
+	.auuzu-case-contitle div {
+		width: 100%;
+		font-size: 10px;
+		color: #777777;
+	}
+	.auuzu-case-contents {
+		overflow: hidden;
+		margin-bottom: 50px;
+	}
+	.auuzu-case-pages {
+		width: 100%;
+		overflow: hidden;
+		margin-bottom: 50px;
+	}
+	.auuzu-case-pages-content {
+		position: absolute;
+		right: 10%;
+		margin-bottom: 50px;
+	}
+	/**********Cases-End**********/
+	/**********Knows-Start**********/
+	.auuzu-know-banner {
+		width: 100%;
+		height: 50px;
+	}
+	.auuzu-know-banner img {
+		width: 100%;
+	}
+	.auuzu-know-banner span {
+		position: absolute;
+		margin-top: -40px;
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+		color: white;
+	}
+	.auuzu-know-contents {
+		overflow: hidden;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.auuzu-know-content-detail {
+		width: 100%;
+		height: 80px;
+		border-bottom: 1px dotted #777777;
+		margin-top: 10px;
+	}
+	.auuzu-know-content-detail-img {
+		width: 60px;
+		height: 60px;
+		float: left;
+	}
+	.auuzu-know-content-detail-contents {
+		height: 80px;
+		float: left;
+		width: 70%;
+		margin-left: 20px;
+	}
+	.auuzu-know-content-detail-contents-title {
+		font-size: 10px;
+	}
+	.auuzu-know-content-detail-contents-con {
+		font-size: 8px;
+		color: #777777;
+		line-height: 20px;
+	}
+	.auuzu-know-content-detail-contents-bot {
+		font-size: 8px;
+		color: #777777;
+	}
+	.auuzu-know-content-detail-contents-bot span {
+		margin-right: 3px;
+	}
+	/**********Knows-End**********/
+	/**********News-Start**********/
+	.auuzu-news-banner {
+		width: 100%;
+		height: 50px;
+	}
+	.auuzu-news-banner img {
+		width: 100%;
+	}
+	.auuzu-news-banner span {
+		position: absolute;
+		margin-top: -40px;
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+		color: white;
+	}
+	.auuzu-news-contents {
+		overflow: hidden;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.auuzu-news-content-detail {
+		width: 100%;
+		height: 80px;
+		border-bottom: 1px dotted #777777;
+		margin-top: 10px;
+	}
+	.auuzu-news-content-detail-img {
+		width: 60px;
+		height: 60px;
+		float: left;
+	}
+	.auuzu-news-content-detail-contents {
+		height: 80px;
+		float: left;
+		width: 70%;
+		margin-left: 20px;
+	}
+	.auuzu-news-content-detail-contents-title {
+		font-size: 18px;
+	}
+	.auuzu-news-content-detail-contents-con {
+		font-size: 10px;
+		color: #777777;
+	}
+	.auuzu-news-content-detail-contents-bot {
+		font-size: 10px;
+		color: #777777;
+	}
+	.auuzu-news-content-detail-contents-bot span {
+		margin-right: 3px;
+	}
+	/**********News-End**********/
+	/**********Contract-Start**********/
+	.auuzu-contract-banner {
+		width: 100%;
+		height: 50px;
+	}
+	.auuzu-contract-banner img {
+		width: 100%;
+	}
+	.auuzu-contract-banner span {
+		position: absolute;
+		margin-top: -40px;
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+		color: white;
+	}
+	.auuzu-contract-contents {
+		overflow: hidden;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.auuzu-contract-contents-left {
+		width: 100%;
+		/*float: left;*/
+	}
+	.auuzu-contract-contents-left span {
+		font-size: 36px;
+		color: #ffa60a;
+	}
+	.auuzu-contract-contents-left-desc {
+		margin-top: 10px;
+		width: 100%;
+		color: #777777;
+		font-size: 12px;
+	}
+	.auuzu-contract-contents-left ul {
+		margin-top: 10px;
+	}
+	.auuzu-contract-contents-left ul li {
+		font-size: 14px;
+		color: #777777;
+	}
+	.auuzu-contract-contents-right {
+		margin-top: 20px;
+		width: 100%;
+		/*float: left;*/
+	}
+	.auuzu-contract-contents-right span {
+		font-size: 36px;
+		color: #777777;
+	}
+	.auuzu-contract-contents-right ul {
+		margin-top: 20px;
+	}
+	.auuzu-contract-contents-right ul li {
+		margin-top: 20px;
+	}
+	.auuzu-contract-contents-right ul li input {
+		width: 300px;
+		font-size: 14px;
+		color: #777777;
+	}
+	.auuzu-contract-contents-right ul li textarea {
+		width: 300px;
+		height: 100px;
+		font-size: 14px;
+		color: #777777;
+	}
+	.btnContractSub {
+		width: 300px;
+		font-size: 16px !important;
+		color: #FFF !important;
+		background-color: #ffa60a;
+		border: 0;
+		height: 40px;
+	}
+	/**********Contract-End**********/
 }
