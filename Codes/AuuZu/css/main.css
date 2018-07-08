@@ -499,7 +499,8 @@ body {
 	height: 240px;
 }
 .auuzu-case-banner img {
-	/*width: 100%;*/
+	width: 100%;
+	height: 240px;
 }
 .auuzu-case-banner span {
 	position: absolute;
@@ -542,6 +543,10 @@ margin-bottom: 50px;
 
 /**********Knows-Start**********/
 .auuzu-know-banner {
+	width: 100%;
+	height: 240px;
+}
+.auuzu-know-banner img {
 	width: 100%;
 	height: 240px;
 }
@@ -693,6 +698,10 @@ margin-bottom: 50px;
 /**********Contract-Start**********/
 
 .auuzu-contract-banner {
+	width: 100%;
+	height: 240px;
+}
+.auuzu-contract-banner img {
 	width: 100%;
 	height: 240px;
 }
