@@ -361,6 +361,9 @@
 	.comon-detail-contents {
 		margin-top: 10px;
 	}
+	.comon-detail-contents img {
+		width: 100%;
+	}
 	.auuzu-index-top {
 		margin-top: 0px;
 	}
